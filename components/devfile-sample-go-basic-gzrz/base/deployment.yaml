@@ -9,9 +9,8 @@ metadata:
     app.kubernetes.io/name: devfile-sample-go-basic-gzrz
     app.kubernetes.io/part-of: pt-200
   name: devfile-sample-go-basic-gzrz
-  namespace: lpardo-tenant
 spec:
-  replicas: 1
+  replicas: 0
   revisionHistoryLimit: 0
   selector:
     matchLabels:
